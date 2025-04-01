@@ -4,10 +4,11 @@ public class Program
 {
     public static void Main()
     {
-        // Задание 1
+        Console.WriteLine("Задание 1");
         Console.WriteLine("Hello, world");
 
-        // Задание 2
+        Console.WriteLine("Задание 2");
+        Console.WriteLine("Для продолжения введите число");
         try 
         {
             string num = Console.ReadLine();
@@ -33,7 +34,7 @@ public class Program
             string quit = Console.ReadLine();
         }
         //усложнил себе задачу просто хотелось обработать всё
-        // Задание 3
+        Console.WriteLine("Задание 3");
         int[] numbersmassiv = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int number = 5;
         for (int i = 1; i <= numbersmassiv.Length; i++)
@@ -41,7 +42,7 @@ public class Program
             Console.WriteLine(number * i);
         }
 
-        // Задание 4 
+        Console.WriteLine("Задание 4");
         void SayHello(string name)
         {
             Console.WriteLine($"Привет, {name}!");
@@ -50,7 +51,7 @@ public class Program
         string userName = Console.ReadLine();
         SayHello(userName);
 
-        // Задание 5
+        Console.WriteLine("Задание 5");
         Person person = new Person("Максим", 15);
         person.PrintInfo();
     }
